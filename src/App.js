@@ -11,7 +11,7 @@ import LoadingBar from 'react-top-loading-bar'
 
 
 
-class App extends Component {
+export default class App extends Component {
   apiKey = process.env.REACT_APP_NEWS_API;
   state = {
     progress: 0
@@ -45,4 +45,3 @@ class App extends Component {
   }
 }
 
-export default App;
